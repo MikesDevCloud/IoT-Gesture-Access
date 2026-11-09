@@ -56,12 +56,12 @@ class Lock(BaseModel):
     failed_attempts: int = 0
 
     def toggle_lock(self):
-        """ Lock the lock """
+        """ Toggle the lock, either opening or closing it based on its current state. """
         self.locked = not self.locked
         print("Lock is now locked.")
 
     def toggle_lockdown(self):
-        """ Enter lockdown mode, blocking any access attempts """
+        """ Toggle lockdown mode, blocking any access attempts """
         self.lockdown = not self.lockdown
         print("Lock is now in lockdown mode.")
 
