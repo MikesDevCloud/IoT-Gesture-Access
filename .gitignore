@@ -1,5 +1,14 @@
 .venv
-.idea
+# PyCharm / JetBrains
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+out/
+cmake-build-*/
+atlassian-ide-plugin.xml
+.fleet/
 
 *.ipynb
 .ipynb_checkpoints/
