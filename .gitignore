@@ -9,6 +9,7 @@ out/
 cmake-build-*/
 atlassian-ide-plugin.xml
 .fleet/
+*-pycharm-support-libs/
 
 *.ipynb
 .ipynb_checkpoints/
